@@ -1,4 +1,4 @@
-# Terragrunt labs
+# Terragrunt Labs
 
 This repo contains the source code for labs
 
