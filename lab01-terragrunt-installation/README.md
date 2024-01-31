@@ -1,0 +1,1 @@
+Installation guide for Windows, MacOS and Linux (Ubuntu)
