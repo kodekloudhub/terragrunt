@@ -2,6 +2,11 @@ terraform {
   source = "tfr:///terraform-aws-modules/vpc/aws//?version=5.5.1"
 }
 
+include "root" {
+  path   = find_in_parent_folders()
+  expose = true
+}
+
 locals {
   aws_region = "eu-west-1"
   project    = "kodekloud-demo"
