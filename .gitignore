@@ -1,0 +1,30 @@
+# terraform
+**/.terraform/*
+tfplan
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# terragrunt
+.terragrunt-cache
+
+# IDE
+.idea
+.vscode
+
+# Crash log files
+crash.log
+
+# osx files
+.DS_Store
+._.DS_Store
+
+#all hidden files but .gitignore
+.*
+!.gitignore
+!.gitlab-ci.yml
+!.editorconfig
+!.pre-commit-config.yaml
+!.ci
