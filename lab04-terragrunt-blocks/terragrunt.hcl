@@ -70,9 +70,8 @@ dependency "vpc" {
 ##  DEPENDENCIES BLOCK  ##
 ##########################
 
-dependencies {
-  paths = ["../networking/vpc", "../security/security-group", "../security/key-pair"]
-}
+
+
 
 ######################
 ##  GENERATE BLOCK  ##

@@ -27,3 +27,7 @@ Installation guide for Windows, MacOS and Linux (Ubuntu).
     -   Set executable permissions: `chmod +x /path/to/terragrunt`.
 
     -   Verify the installation by running `terragrunt --version` in the terminal.
+
+## REQUIREMENTS
+
+ - OS: Linux (Debian or Red Hat based) - I guess this is the only one we can demo?
