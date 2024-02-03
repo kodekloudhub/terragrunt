@@ -2,9 +2,6 @@ terraform {
   source = "tfr:///terraform-aws-modules/security-group/aws//?version=5.1.0"
 }
 
-# ---------------------------------------------------------------------------------------------------------------------
-# Locals are named constants that are reusable within the configuration.
-# ---------------------------------------------------------------------------------------------------------------------
 locals {
 
 }
@@ -13,10 +10,6 @@ include "root" {
   path   = find_in_parent_folders()
   expose = true
 }
-
-# ---------------------------------------------------------------------------------------------------------------------
-# We override inputs only specifically related to the environment.
-# ---------------------------------------------------------------------------------------------------------------------
 
 inputs = {
   name        = "${local.project}-security-group"

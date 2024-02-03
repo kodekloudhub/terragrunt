@@ -4,9 +4,6 @@ locals {
   project        = "kodekloud-demo"
 }
 
-# ----------------------------------------------------------------------------------------------------------------
-# GENERATED PROVIDER BLOCK
-# ----------------------------------------------------------------------------------------------------------------
 generate "provider" {
   path      = "provider.tf"
   if_exists = "overwrite_terragrunt"
@@ -22,7 +19,6 @@ provider "aws" {
 EOF
 }
 
-# Use an override file to lock the provider version, regardless of if required_providers is defined in the modules.
 generate "provider_version" {
   path      = "provider_version_override.tf"
   if_exists = "overwrite_terragrunt"
