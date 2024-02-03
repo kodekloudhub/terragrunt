@@ -19,11 +19,11 @@ The remote_state block should be the following:
 remote_state {
   backend = "s3"
   config = {
-    encrypt                   = true
-    bucket                    = "kodekloud-remote-state-<RANDOMIZED_STRING>"
-    key                       = "terraform.tfstate"
-    region                    = "eu-west-1"
-    dynamodb_table            = "terraform-locks"
+    encrypt        = true
+    bucket         = "kodekloud-remote-state-<RANDOMIZED_STRING>"
+    key            = "terraform.tfstate"
+    region         = "eu-west-1"
+    dynamodb_table = "terraform-locks"
   }
   generate = {
     path      = "backend.tf"

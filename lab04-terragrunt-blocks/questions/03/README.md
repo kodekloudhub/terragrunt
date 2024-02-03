@@ -14,12 +14,12 @@ The locals block should be the following:
 
 ```
 locals {
-  project        = "kodekloud-demo"
-  aws_region     = "eu-west-1"
+  project    = "kodekloud-demo"
+  aws_region = "eu-west-1"
 
   tags = {
-    Project        = local.project
-    CreatedBy      = "terragrunt"
+    Project   = local.project
+    CreatedBy = "terragrunt"
   }
 }
 ```
