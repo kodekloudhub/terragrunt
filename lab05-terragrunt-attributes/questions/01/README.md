@@ -1,3 +1,0 @@
-# QUESTION
-
-# SOLUTION
