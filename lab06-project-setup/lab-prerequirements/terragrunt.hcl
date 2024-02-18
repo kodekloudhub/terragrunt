@@ -15,7 +15,7 @@ EOF
 }
 
 generate "provider_version" {
-  path      = "versions.tf"
+  path      = "provider_version_override.tf"
   if_exists = "overwrite_terragrunt"
   contents  = <<EOF
 terraform {

@@ -1,5 +1,5 @@
 locals {
-  aws_account_id = "<AWS_ACCOUNT_ID>"
+  aws_account_id = "AWS_ACCOUNT_ID"
   aws_region     = "eu-west-1"
   project        = "kodekloud-demo"
 }
@@ -15,7 +15,7 @@ EOF
 }
 
 generate "provider_version" {
-  path      = "versions.tf"
+  path      = "provider_version_override.tf"
   if_exists = "overwrite_terragrunt"
   contents  = <<EOF
 terraform {
