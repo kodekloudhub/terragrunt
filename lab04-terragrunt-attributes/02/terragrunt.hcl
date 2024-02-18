@@ -1,1 +1,1 @@
-download_dir = "my-download-dir"
+download_dir = "../.terragrunt-config"
