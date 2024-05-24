@@ -3,7 +3,7 @@ terraform {
 }
 
 include "root" {
-  path   =
-  expose =
+  path   = find_in_parent_folders()
+  expose = true
 }
 
