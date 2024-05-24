@@ -1,8 +1,8 @@
 ## REQUIREMENTS
 
  - OS: Linux (Debian or Red Hat based)
- - Terraform version 1.5.5
- - Terragrunt version >= 0.48.0
+ - Terraform version 1.8.3
+ - Terragrunt version >= 0.58.8
 
 
 The `lab-prerequirements` should be copied on the VM in a working directory where the learner will run commands from.
