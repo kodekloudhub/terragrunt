@@ -14,5 +14,7 @@ remote_state {
 }
 
 locals {
-  project = "KodeKloud-Labs"
+  project       = "KodeKloud-Labs"
+  ami           = "ami-003c6328b40ce2af6"
+  instance_type = "t3.nano"
 }
