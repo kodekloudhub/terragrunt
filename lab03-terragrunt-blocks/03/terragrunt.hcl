@@ -1,3 +1,0 @@
-locals {
-  Project = "KodeKloud-Labs"
-}
