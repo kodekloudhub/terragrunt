@@ -1,5 +1,4 @@
 locals {
-  aws_account_id = "AWS_ACCOUNT_ID"
   aws_region     = "eu-west-1"
   project        = "kodekloud-demo"
 }
